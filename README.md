@@ -15,7 +15,7 @@
 
 ## 更新游戏页面
 
-每个游戏目录中的 `site-config.json` 是下载链接和官网地址的权威配置；页面源文件为 `tools/index.template.html`，样式在 `styles.css`，交互在 `app.js`。不单独维护生成的 `index.html`。
+每个游戏目录中的 `site-config.json` 是下载链接和官网地址的权威配置：`taptap_url` 对应移动端，`taptap_pc_url` 对应 PC；二维码始终使用移动端链接。页面源文件为 `tools/index.template.html`，样式在 `styles.css`，交互在 `app.js`。不单独维护生成的 `index.html`。
 
 从仓库根目录执行，例如：
 
@@ -32,4 +32,4 @@ python tools/preview_site.py
 
 REP 中每个游戏填写自己的独立网址。根网址已由《安妮早餐店》改为游戏导航，原先使用根网址的安妮资源需要更新为 `https://wt8930419-ai.github.io/game-showcase/978939/`。
 
-新游戏先确认 App ID、官方页面和对应 REP 链接，再新增独立目录及首页入口；不得复用其他游戏的监测链接。
+新游戏先确认 App ID、官方页面，并分别向用户索取移动端、PC 两条 REP 下载链接，再新增独立目录及首页入口；缺少的链接必须明确索取，不得猜测、将同一条链接用于两个平台或复用其他游戏的监测链接。

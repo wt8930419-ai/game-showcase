@@ -16,11 +16,14 @@ ROOT = Path(__file__).resolve().parent.parent
 def main():
     config = json.loads((ROOT / "site-config.json").read_text(encoding="utf-8"))
     target = config["taptap_url"]
-    parsed = urlparse(target)
-    if parsed.scheme != "https" or not parsed.hostname:
-        raise ValueError("下载链接必须是完整的 HTTPS 地址")
+    pc_target = config["taptap_pc_url"]
+    for label, url in (("手机端", target), ("PC版", pc_target)):
+        parsed = urlparse(url)
+        if parsed.scheme != "https" or not parsed.hostname:
+            raise ValueError(label + "下载链接必须是完整的 HTTPS 地址")
     source = (ROOT / "tools" / "index.template.html").read_text(encoding="utf-8")
     output = source.replace("{{TAPTAP_URL}}", html.escape(target, quote=True))
+    output = output.replace("{{TAPTAP_PC_URL}}", html.escape(pc_target, quote=True))
     output = output.replace("{{SITE_URL}}", html.escape(config["site_url"], quote=True))
     if "{{" in output:
         raise ValueError("页面仍包含未替换的模板字段")
@@ -35,6 +38,7 @@ def main():
     (ROOT / "media" / "play-qr.svg").write_bytes(buffer.getvalue())
     (ROOT / "index.html").write_text(output, encoding="utf-8", newline="\n")
     print("已生成 index.html 与 media/play-qr.svg，目标：" + target)
+    print("PC版入口：" + pc_target)
     if not config["rep_tracking"]:
         print("当前使用官方游戏页；获取 REP 官网品牌挂件监测链接后修改 site-config.json 并重新生成。")
 
