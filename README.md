@@ -5,13 +5,14 @@
 | 页面 | 目录 | 公开地址 |
 | --- | --- | --- |
 | 游戏导航 | `/` | https://wt8930419-ai.github.io/game-showcase/ |
+| 修仙增量 | `964251/` | https://wt8930419-ai.github.io/game-showcase/964251/ |
 | 圣剑与传说 | `950239/` | https://wt8930419-ai.github.io/game-showcase/950239/ |
 | 安妮早餐店 | `978939/` | https://wt8930419-ai.github.io/game-showcase/978939/ |
 
 - 仓库：https://github.com/wt8930419-ai/game-showcase
 - Pages 发布源：`main` 分支根目录 `/`。
 - 官网素材来自对应游戏官方 TapTap 页面，来源记录在各游戏的 `media/sources.json`。
-- 两个游戏已配置各自的 REP 监测链接；提交和审核状态以 REP 后台为准。
+- 各游戏已分别配置移动端与 PC 的 REP 监测链接；提交和审核状态以 REP 后台为准。
 
 ## 更新游戏页面
 
