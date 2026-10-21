@@ -1,0 +1,43 @@
+{
+  "source": "https://www.taptap.cn/app/978939",
+  "retrieved": "2026-10-21",
+  "images": [
+    {
+      "file": "icon-small.png",
+      "url": "https://img-tc.tapimg.com/market/images/0581016ff63d9f167c38f6506ec25f49.png/_tap_appicon_m.jpg",
+      "width": 180,
+      "height": 180
+    },
+    {
+      "file": "cover.jpg",
+      "url": "https://img-tc.tapimg.com/market/images/d9d816319f9f051aff69efdd4a1733af.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "cover-portrait.png",
+      "url": "https://img-tc.tapimg.com/market/images/ff60a1c7e21e5dc7889fdaf0c8e4025c.png",
+      "width": 848,
+      "height": 1272
+    },
+    {
+      "file": "screenshot-1.png",
+      "url": "https://img-tc.tapimg.com/market/images/c1d02497ecc85faa7f343f23aeb6658b.png",
+      "width": 768,
+      "height": 1376
+    },
+    {
+      "file": "screenshot-2.png",
+      "url": "https://img-tc.tapimg.com/market/images/9a8a0c27c205a3b5ecb7070b12ff0c40.png",
+      "width": 768,
+      "height": 1376
+    },
+    {
+      "file": "screenshot-3.png",
+      "url": "https://img-tc.tapimg.com/market/images/7701773dbefa29f8948442d38b13ae9a.png",
+      "width": 768,
+      "height": 1376
+    }
+  ],
+  "logo": "TapTap 官方游戏页页头 SVG，保留路径，使用白色填充"
+}
