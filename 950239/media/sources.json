@@ -1,0 +1,49 @@
+{
+  "source": "https://www.taptap.cn/app/950239",
+  "retrieved": "2026-10-21",
+  "images": [
+    {
+      "file": "icon.png",
+      "url": "https://img-tc.tapimg.com/market/images/FqagMQwuy4JIcZk_c0DIlFyfDrNO.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2236272
+    },
+    {
+      "file": "cover.png",
+      "url": "https://img-tc.tapimg.com/market/images/FhcK03_jntAwYRwQxlmZJJvXcJNL.png",
+      "width": 1472,
+      "height": 688,
+      "bytes": 1564874
+    },
+    {
+      "file": "poster.png",
+      "url": "https://img-tc.tapimg.com/market/images/Fgk0I7f54HSB6LBAd3bWTWA9t8bO.png",
+      "width": 848,
+      "height": 1272,
+      "bytes": 1573713
+    },
+    {
+      "file": "screenshot-1.png",
+      "url": "https://img-tc.tapimg.com/market/images/FigKfER0MBR6bsltwr37Aa57OjvH.png",
+      "width": 768,
+      "height": 1376,
+      "bytes": 1612856
+    },
+    {
+      "file": "screenshot-2.png",
+      "url": "https://img-tc.tapimg.com/market/images/Fh4sF8Y_3uvs-z_ZQgDrxdd_HPZ4.png",
+      "width": 768,
+      "height": 1376,
+      "bytes": 1568781
+    },
+    {
+      "file": "screenshot-3.png",
+      "url": "https://img-tc.tapimg.com/market/images/FgnUUZGKWPRm157QgfkQsuwJ76Pe.png",
+      "width": 768,
+      "height": 1376,
+      "bytes": 1522196
+    }
+  ],
+  "logo": "沿用已核对的 TapTap 官方 SVG 标识"
+}
