@@ -1,0 +1,50 @@
+{
+  "source_page": "https://www.taptap.cn/app/959499",
+  "retrieved_on": "2026-10-21",
+  "images": [
+    {
+      "file": "icon.png",
+      "url": "https://img-tc.tapimg.com/market/images/daa34724e6ff0434aa5d92b7db115715.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2153910
+    },
+    {
+      "file": "cover.png",
+      "url": "https://img-tc.tapimg.com/market/images/Frl-iZbekeJ2cr1MiyZbtKBGbYOJ.png",
+      "width": 1472,
+      "height": 688,
+      "bytes": 1187443
+    },
+    {
+      "file": "poster.png",
+      "url": "https://img-tc.tapimg.com/market/images/FurGj1BeAjkTXMmsoy_D5RXIwexB.png",
+      "width": 848,
+      "height": 1272,
+      "bytes": 1404632
+    },
+    {
+      "file": "screenshot-1.png",
+      "url": "https://img-tc.tapimg.com/market/images/Fl3dc3K6AhIola0VljsRfaGjv4bU.png",
+      "width": 768,
+      "height": 1376,
+      "bytes": 973815
+    },
+    {
+      "file": "screenshot-2.png",
+      "url": "https://img-tc.tapimg.com/market/images/FsYqbV_AkvjVv0s_fqFySYK-RZMQ.png",
+      "width": 768,
+      "height": 1376,
+      "bytes": 1065935
+    },
+    {
+      "file": "screenshot-3.png",
+      "url": "https://img-tc.tapimg.com/market/images/FuLAhhzxMrFrKFMLpXT5w4hRaNam.png",
+      "width": 768,
+      "height": 1376,
+      "bytes": 1103001
+    }
+  ],
+  "taptap_logo": "沿用仓库既有官方 TapTap 白色标识 SVG；不修改图形与比例。",
+  "processing": "官方原图按原始像素保存；页面通过 CSS 等比例展示。"
+}

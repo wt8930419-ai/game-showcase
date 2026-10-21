@@ -5,6 +5,7 @@
 | 页面 | 目录 | 公开地址 |
 | --- | --- | --- |
 | 游戏导航 | `/` | https://wt8930419-ai.github.io/game-showcase/ |
+| 点点修仙传 | `959499/` | https://wt8930419-ai.github.io/game-showcase/959499/ |
 | 修仙：一剑破天 | `962137/` | https://wt8930419-ai.github.io/game-showcase/962137/ |
 | 暗黑增量：无限地牢 | `965198/` | https://wt8930419-ai.github.io/game-showcase/965198/ |
 | 修仙增量 | `964251/` | https://wt8930419-ai.github.io/game-showcase/964251/ |
