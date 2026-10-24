@@ -5,7 +5,6 @@
 | 页面 | 目录 | 公开地址 |
 | --- | --- | --- |
 | 游戏导航 | `/` | https://wt8930419-ai.github.io/game-showcase/ |
-| 模拟三国城 | `818856/` | https://wt8930419-ai.github.io/game-showcase/818856/ |
 | 点点修仙传 | `959499/` | https://wt8930419-ai.github.io/game-showcase/959499/ |
 | 修仙：一剑破天 | `962137/` | https://wt8930419-ai.github.io/game-showcase/962137/ |
 | 暗黑增量：无限地牢 | `965198/` | https://wt8930419-ai.github.io/game-showcase/965198/ |
@@ -16,7 +15,7 @@
 - 仓库：https://github.com/wt8930419-ai/game-showcase
 - Pages 发布源：`main` 分支根目录 `/`。
 - 官网素材来自对应游戏官方 TapTap 页面，来源记录在各游戏的 `media/sources.json`。
-- 各游戏按指定平台配置 REP 监测链接；《模拟三国城》仅接入安卓入口，其他游戏分别配置移动端与 PC 入口。提交和审核状态以 REP 后台为准。
+- 各游戏已分别配置移动端与 PC 的 REP 监测链接；提交和审核状态以 REP 后台为准。
 
 ## 更新游戏页面
 
@@ -38,3 +37,7 @@ python tools/preview_site.py
 REP 中每个游戏填写自己的独立网址。根网址已由《安妮早餐店》改为游戏导航，原先使用根网址的安妮资源需要更新为 `https://wt8930419-ai.github.io/game-showcase/978939/`。
 
 新游戏先确认 App ID、官方页面，并分别向用户索取移动端、PC 两条 REP 下载链接，再新增独立目录及首页入口；缺少的链接必须明确索取，不得猜测、将同一条链接用于两个平台或复用其他游戏的监测链接。
+
+## 仙梦游戏的独立仓库
+
+《模拟三国城》已迁至 [仙梦游戏官网](https://wt8930419-ai.github.io/xianmeng-games/)，源文件和素材在 [wt8930419-ai/xianmeng-games](https://github.com/wt8930419-ai/xianmeng-games) 的 `818856/`。本仓库的 `818856/index.html` 仅保留旧网址跳转，不再维护该游戏内容；REP 官网地址应更新为 `https://wt8930419-ai.github.io/xianmeng-games/818856/`。
